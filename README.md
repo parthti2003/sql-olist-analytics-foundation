@@ -1,11 +1,8 @@
 # SQL Olist Analytics Foundation
-
 Advanced real-world SQL analytics project using the Olist Brazilian E-Commerce Dataset for comprehensive business intelligence and data analysis.
 
 ## 🎯 Project Overview and Goals
-
 This project demonstrates advanced SQL analytics capabilities through comprehensive analysis of the Olist Brazilian E-Commerce dataset. The primary objectives are:
-
 - **Business Intelligence**: Extract actionable insights from real e-commerce data
 - **Data Modeling Excellence**: Implement efficient database structures and relationships
 - **Performance Optimization**: Develop optimized queries for large-scale data analysis
@@ -13,7 +10,6 @@ This project demonstrates advanced SQL analytics capabilities through comprehens
 - **Professional Development**: Showcase industry-standard SQL practices and methodologies
 
 ## 📊 Dataset Information
-
 This project utilizes the **Olist Brazilian E-Commerce Public Dataset** - a comprehensive collection of real commercial data generously made available by Olist.
 
 **Dataset Reference**: [Olist E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -27,7 +23,6 @@ This project utilizes the **Olist Brazilian E-Commerce Public Dataset** - a comp
 - Rich relationship structures perfect for advanced SQL analytics
 
 ## 🛠️ Key Skills and Technologies
-
 - **SQL**: Advanced querying, joins, subqueries, window functions, CTEs
 - **Data Modeling**: Entity relationship design, normalization, indexing strategies
 - **Performance Optimization**: Query optimization, execution plan analysis
@@ -36,7 +31,6 @@ This project utilizes the **Olist Brazilian E-Commerce Public Dataset** - a comp
 - **Database Management**: Schema design, data integrity, constraint implementation
 
 ## 📋 Table of Contents - Analytical Questions
-
 The following comprehensive analysis is covered in `Queries.sql`:
 
 ### Product Analytics
@@ -75,15 +69,14 @@ The following comprehensive analysis is covered in `Queries.sql`:
 23. Regional performance of product categories (state/city)
 
 ## 📁 Repository Structure
-
 ```
 sql-olist-analytics-foundation/
 │
 ├── README.md              # Project documentation (this file)
 ├── Queries.sql           # Main SQL analysis file with all queries
 ├── Schema/               # Database schema and structure files
-│   ├── ERD.sql          # Entity Relationship Diagram SQL
-│   └── Tables.sql       # Table creation and constraints
+│   ├── ER diagram.png    # Entity Relationship Diagram
+│   └── setup script.sql # Table creation and constraints
 ├── Documentation/        # Additional project documentation
 │   ├── Analysis_Report.md   # Detailed findings and insights
 │   └── Performance_Notes.md # Query optimization notes
@@ -100,9 +93,11 @@ sql-olist-analytics-foundation/
 
 ### Execution Steps
 1. **Setup Database**: Import the Olist dataset into your SQL environment
-2. **Review Schema**: Examine the table structures in `Schema/Tables.sql`
+2. **Review Schema**: Examine the table structures in `Schema/setup script.sql`
 3. **Execute Queries**: Run individual queries from `Queries.sql`
 4. **Analyze Results**: Each query includes comments explaining the business context
+
+*Note: The ER diagram is available as `Schema/ER diagram.png` for reference when understanding table relationships.*
 
 ### Query Organization
 - Each analytical question is clearly numbered and commented
@@ -131,7 +126,6 @@ sql-olist-analytics-foundation/
 - **Advanced Statistics**: Econometric modeling and analysis
 
 ## 🙏 Credits and Acknowledgments
-
 - **Olist**: Grateful acknowledgment to Olist for making this comprehensive Brazilian e-commerce dataset publicly available
 - **Kaggle**: Thanks to the Kaggle platform for hosting and maintaining the dataset
 - **Brazilian E-commerce Community**: Appreciation for the real-world data that makes this analysis meaningful and relevant
@@ -145,9 +139,7 @@ License: CC BY-NC-SA 4.0
 ```
 
 ---
-
 **Project Maintained by**: [parthti2003](https://github.com/parthti2003)
-
 **Last Updated**: August 2025
 
 *This project is part of a comprehensive data analytics portfolio demonstrating real-world SQL applications in business intelligence and e-commerce analytics.*
